@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #1A1A2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav h1 {
+    color: white;
+}
+
+nav h1 span {
+    color: #FF6B35;
+}
+
+
+ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav div li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #FF6B35;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(20, 15, 12, 0.65)), url(../images/banner.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sec{
+    background-color: #DDDDDD;
+}
+
+.services{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.services h1{
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.services p{
+    color: #666666;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 12px 12px 12px 12px;
+    
+}
+
+.card img{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-text{
+    padding: 20px 0 20px 15px;
+}
+
+.card-text h3, p{
+    margin-bottom: 10px;
+}
+
+.card-btn{
+    background-color: #1A1A2E;
+}
+
+footer{
+    background-color: #1A1A2E;
+    padding: 40px 15%;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3{
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer div p{
+    color: #CCCCCC;
+}
+
+.hide{
+    color: white;
+    background-color: #FF6B35;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: none;
+}
