@@ -44,7 +44,7 @@ button {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(20, 15, 12, 0.65)), url(./images/banner.jpg);
+    background-image: linear-gradient(rgba(20, 15, 12, 0.65)), url(../images/banner.jpg);
     height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,14 +126,10 @@ footer div p{
     color: #CCCCCC;
 }
 
-.hide{
-    color: white;
+#popupBox{
     background-color: #FF6B35;
     text-align: center;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    color: white;
+    padding: 12px 0;
     display: none;
 }
