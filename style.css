@@ -44,7 +44,7 @@ button {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(20, 15, 12, 0.65)), url(../images/banner.jpg);
+    background-image: linear-gradient(rgba(20, 15, 12, 0.65)), url(images/banner.jpg);
     height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
